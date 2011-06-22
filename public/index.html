@@ -11,7 +11,7 @@
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Console.fm</title>
+    <title>Console</title>
 
     <!-- Mobile viewport optimized: j.mp/bplateviewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,178 +19,8 @@
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <script src="javascripts/modernizr-1.7.min.js"></script>
     
-    <style>
-      /*	Less Framework 4
-      	http://lessframework.com
-      	by Joni Korpi
-      	License: http://creativecommons.org/licenses/MIT/	*/
-
-      /*	Resets
-      	------	*/
-
-      html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
-      p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
-      img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
-      dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
-      table, caption, tbody, tfoot, thead, tr, th, td,
-      article, aside, canvas, details, figure, figcaption, hgroup, 
-      menu, footer, header, nav, section, summary, time, mark, audio, video {
-      	margin: 0;
-      	padding: 0;
-      	border: 0;
-      }
-
-      article, aside, canvas, figure, figure img, figcaption, hgroup,
-      footer, header, nav, section, audio, video {
-      	display: block;
-      }
-
-      a img {border: 0;}
-      html {overflow-y: scroll;}
-
-      /*	Typography presets
-      	------------------	*/
-
-      .gigantic {
-      	font-size: 110px;
-      	line-height: 120px;
-      	letter-spacing: -2px;
-      }
-
-      .huge, h1 {
-      	font-size: 68px;
-      	line-height: 72px;
-      	letter-spacing: -3px;
-      	font-weight:900;
-      }
-
-      .large, h2 {
-      	font-size: 42px;
-      	line-height: 48px;
-      	font-weight:700;
-      }
-
-      .bigger, h3 {
-      	font-size: 26px;
-      	line-height: 36px;
-      	font-weight:500;
-      }
-
-      .big, h4 {
-      	font-size: 22px;
-      	line-height: 30px;
-      }
-
-      body {
-      	font: 16px/24px;
-      }
-
-      .small, small {
-      	font-size: 13px;
-      	line-height: 18px;
-      }
-
-      h1, p {
-      	margin-bottom: .5em;
-      }
-
-      /* Selection colours (easy to forget) */
-
-      ::selection 	 	{background: rgb(0,255,0);}
-      ::-moz-selection 	{background: rgb(0,255,0);}
-      img::selection 		{background: transparent;}
-      img::-moz-selection	{background: transparent;}
-      body {-webkit-tap-highlight-color: rgb(0,255,0);}
-
-
-
-      /*		Default Layout: 992px. 
-      		Gutters: 24px.
-      		Outer margins: 48px.
-      		Leftover space for scrollbars @1024px: 32px.
-      -------------------------------------------------------------------------------
-      cols    1     2      3      4      5      6      7      8      9      10
-      px      68    160    252    344    436    528    620    712    804    896    */
-
-      body {
-      	background: #fff;
-      	color: #333;
-      	font-family: "proxima-nova-1","proxima-nova-2", "Helvetica Nueue", helvetica, sans-serif;
-      	-webkit-font-smoothing: antialiased;
-      	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
-      	padding: 72px 48px 84px;
-      }
-      
-      header,section {
-        border-bottom:1px solid rgba(0,0,0,.2);
-      }
-      
-      #container {
-        width:436px;
-        margin:0 auto;
-      }
-      
-      header img {
-        float:left;
-        width:32px;
-      }
-      
-      header, section, footer {
-        padding:12px;
-      }
-      
-      footer, footer a{
-        text-align:center;
-        color:#fff;
-      }
-      
-      article {
-      	background: rgba(255,255,255,.8);
-      	-webkit-box-shadow: 0 0 8px #333;
-           -moz-box-shadow: 0 0 8px #333;
-             -o-box-shadow: 0 0 8px #333;
-                box-shadow: 0 0 8px #333;
-      }
-
-      a {
-      	font-weight:bold;
-      	text-decoration:none;
-      	color:#333;
-      	border-bottom:2px solid rgba(0,0,0,.3);
-      	-webkit-transition: all .33s ease;
-      	-moz-transition: all .33s ease;
-      	-o-transition: all .33s ease;
-      	transition: all .33s ease;
-      }
-
-      a:hover {
-      	border-bottom:2px solid rgba(0,0,0,.6);
-      }
-
-      section ul {
-      	list-style-type:none;
-      }
-
-      section ul li {
-      	float:left;
-      }
-
-      section ul li img {
-      	opacity:.6;
-      	margin:12px 12px 0 0;
-      	-webkit-transition: all .33s ease;
-      	-moz-transition: all .33s ease;
-      	-o-transition: all .33s ease;
-      	transition: all .33s ease;
-      }
-
-      section ul li img:hover {
-      	opacity:.9;
-      	-webkit-transform: rotate(25deg);
-      	-moz-transform: rotate(25deg);
-      }
-      
-    </style>
+    <!-- CSS: implied media="all" -->
+    <link rel="stylesheet" href="stylesheets/style.css">
 	</head>
 
   <body> 
@@ -223,12 +53,15 @@
                                        -->  
     <div id="container">    
     <article>
-        <header>
-          <img src="images/console.png">
-  			  <h3>Console.fm</h3>
-  			</header>
         <section>
-  			  <embed src='http://www.shoutcast.com/media/popupPlayer_V19.swf?stationid=http://yp.shoutcast.com/sbin/tunein-station.pls?id=1177953&play_status=1' quality='high' bgcolor='#ffffff' width='398' height='104' name='popupPlayer_V19' align='middle' allowScriptAccess='always' allowFullScreen='true' type='application/x-shockwave-flash' pluginspage='http://www.adobe.com/go/getflashplayer' ></embed>
+          <img src="images/console.png">
+          <h2>Alpha Centauri</h2>
+          <h3>
+            Noisia
+            <br>
+            #40 on Dubstep 100
+          <h3>
+          
   		  </section>
     </article>
     
@@ -237,16 +70,16 @@
 	  </footer>
 	  </div>
     
-    <!-- FF Meta Web Pro and FF Tisa Web Pro provided by Typekit -->
+    <!-- Fonts provided by Typekit -->
     <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
     <script>
       WebFont.load({
         typekit: {
-          id: 'fbv1rsb'
+          id: 'xxz4nwp'
         }
       });
     </script>
-      
+    
     <!-- jQuery from Google CDN and local fallback -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
     <script>window.jQuery || document.write("<script src='javascripts/jquery-1.5.1.min.js'>\x3C/script>")</script>
