@@ -2,10 +2,6 @@
 	http://lessframework.com
 	by Joni Korpi
 	License: http://creativecommons.org/licenses/MIT/	*/
-	
-	h1 {
-    font-family: "hydrophilia-iced-1","hydrophilia-iced-2",sans-serif;
-  }
 
 /*	Resets
 	------	*/
@@ -65,7 +61,6 @@ html {overflow-y: scroll;}
 
 body {
 	font: 16px/24px;
-	font-family: "hydrophilia-iced-1","hydrophilia-iced-2",sans-serif;
 }
 
 .small, small {
@@ -98,7 +93,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 body {
 	background: #fff;
 	color: #333;
-	font-family: "proxima-nova-1","proxima-nova-2", "Helvetica Nueue", helvetica, sans-serif;
+	font-family: "hydrophilia-iced-1","hydrophilia-iced-2",sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 	padding: 72px 48px 84px;
@@ -136,7 +131,6 @@ article {
 }
 
 a {
-	font-weight:bold;
 	text-decoration:none;
 	color:#333;
 	border-bottom:2px solid rgba(0,0,0,.3);
