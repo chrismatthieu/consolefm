@@ -1,5 +1,3 @@
-Readme Alex Baldwin personal site
+Console.fm
 
-Colophon
-FF Meta Web Pro
-FF Tisa Web Pro
+Should probably rewrite this soon :)
