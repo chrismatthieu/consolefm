@@ -138,17 +138,7 @@ footer a:hover {
 	border-bottom:2px solid rgba(0,0,0,.6);
 }
 
-/*	jPlayer
-	------	*/
-div.jp-audio,
-div.jp-video {
-  /* Edit the font-size to counteract inherited font sizing.
-   * Eg. 1.25em = 1 / 0.8em
-   */
-  font-size:1.25em;
-  width:0;
-}
-
-.jp-audio {
-  top:500px;
+#player {
+  visibility:hidden;
+  display:none;
 }
